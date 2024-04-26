@@ -13,7 +13,7 @@ pipeline{
             }
 
         }
-        stage('buildcode'){
+        stage('cicdpipes'){
             steps{
                 deploy adapters: [tomcat9(url:'http://15.207.106.147:8080/', credentialsId:'tomcatcred')], war: '**/*.war'
             }

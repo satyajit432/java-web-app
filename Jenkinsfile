@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkoutcode') {
             steps {
-                git branch: main, url: 'https://github.com/satyajit432/java-web-app.git'
+                git branch: main, url:'https://github.com/satyajit432/java-web-app.git'
             }
 
         }

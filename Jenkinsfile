@@ -1,6 +1,6 @@
 node{
     stage('checkoutcode'){
-        git branch:'main', git url:'https://github.com/satyajit432/java-web-app.git'
+        git branch:'main', url:'https://github.com/satyajit432/java-web-app.git'
     }
     stage('buildcode'){
         sh '/opt/maven/bin/mvn clean package'

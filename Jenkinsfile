@@ -1,7 +1,7 @@
 pipeline {
     agent {
         Node {
-           Lable 'jenkins-slave-cred'
+           Lable "jenkins-slave-cred"
         }   
     }
     stages {

@@ -1,5 +1,5 @@
 pipeline {
-    agent { lable 'jenkins-slave-cred'}
+    agent {lable'jenkins-slave-cred'}
     stages {
         stage('checkoutcode') {
             steps{
